@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21CC41A417DB7D1300201DDC"
-               BuildableName = "SSZipArchive.app"
+               BlueprintIdentifier = "A7A000661845716F00DA4DA2"
+               BuildableName = "libSSZipArchive.a"
                BlueprintName = "SSZipArchive"
                ReferencedContainer = "container:SSZipArchive.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21CC41BF17DB7D1300201DDC"
+               BlueprintIdentifier = "A7A000731845716F00DA4DA2"
                BuildableName = "SSZipArchiveTests.xctest"
                BlueprintName = "SSZipArchiveTests"
                ReferencedContainer = "container:SSZipArchive.xcodeproj">
@@ -42,8 +42,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21CC41A417DB7D1300201DDC"
-            BuildableName = "SSZipArchive.app"
+            BlueprintIdentifier = "A7A000661845716F00DA4DA2"
+            BuildableName = "libSSZipArchive.a"
             BlueprintName = "SSZipArchive"
             ReferencedContainer = "container:SSZipArchive.xcodeproj">
          </BuildableReference>
@@ -61,8 +61,8 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21CC41A417DB7D1300201DDC"
-            BuildableName = "SSZipArchive.app"
+            BlueprintIdentifier = "A7A000661845716F00DA4DA2"
+            BuildableName = "libSSZipArchive.a"
             BlueprintName = "SSZipArchive"
             ReferencedContainer = "container:SSZipArchive.xcodeproj">
          </BuildableReference>
@@ -79,8 +79,8 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21CC41A417DB7D1300201DDC"
-            BuildableName = "SSZipArchive.app"
+            BlueprintIdentifier = "A7A000661845716F00DA4DA2"
+            BuildableName = "libSSZipArchive.a"
             BlueprintName = "SSZipArchive"
             ReferencedContainer = "container:SSZipArchive.xcodeproj">
          </BuildableReference>
