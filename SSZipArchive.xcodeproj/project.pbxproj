@@ -12,6 +12,7 @@
 		A7A000761845716F00DA4DA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CC41A817DB7D1300201DDC /* Foundation.framework */; };
 		A7A0007A1845716F00DA4DA2 /* libSSZipArchive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A000671845716F00DA4DA2 /* libSSZipArchive.a */; };
 		A7A00089184571DA00DA4DA2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CC421217DB7E0500201DDC /* libz.dylib */; };
+		A7A0008E1845732A00DA4DA2 /* SSZipArchiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CC41F717DB7D3500201DDC /* SSZipArchiveTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -269,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A0008E1845732A00DA4DA2 /* SSZipArchiveTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +446,7 @@
 				A7A000851845716F00DA4DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7A000861845716F00DA4DA2 /* Build configuration list for PBXNativeTarget "SSZipArchiveTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +455,7 @@
 				A7A000881845716F00DA4DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
