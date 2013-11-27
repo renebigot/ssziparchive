@@ -108,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				21CC41D717DB7D2F00201DDC /* SSZipArchive */,
-				A7A0006A1845716F00DA4DA2 /* Supporting Files */,
 				21CC41EE17DB7D3500201DDC /* Tests */,
 				21CC41A717DB7D1300201DDC /* Frameworks */,
 				21CC41A617DB7D1300201DDC /* Products */,
@@ -140,6 +139,7 @@
 				21CC41E217DB7D2F00201DDC /* SSZipArchive.h */,
 				21CC41E317DB7D2F00201DDC /* SSZipArchive.m */,
 				210D524A17DEFB880060D41A /* minizip */,
+				A7A0006A1845716F00DA4DA2 /* Supporting Files */,
 			);
 			path = SSZipArchive;
 			sourceTree = "<group>";
@@ -174,7 +174,6 @@
 				A7A0006B1845716F00DA4DA2 /* SSZipArchive-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			path = SSZipArchive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +223,11 @@
 				CLASSPREFIX = SS;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Sam Soffes";
+				TargetAttributes = {
+					A7A000731845716F00DA4DA2 = {
+						TestTargetID = A7A000661845716F00DA4DA2;
+					};
+				};
 			};
 			buildConfigurationList = 21CC41A017DB7D1300201DDC /* Build configuration list for PBXProject "SSZipArchive" */;
 			compatibilityVersion = "Xcode 3.2";
