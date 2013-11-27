@@ -13,6 +13,18 @@
 		A7A0007A1845716F00DA4DA2 /* libSSZipArchive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A000671845716F00DA4DA2 /* libSSZipArchive.a */; };
 		A7A00089184571DA00DA4DA2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CC421217DB7E0500201DDC /* libz.dylib */; };
 		A7A0008E1845732A00DA4DA2 /* SSZipArchiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CC41F717DB7D3500201DDC /* SSZipArchiveTests.m */; };
+		A7A0008F1845746900DA4DA2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CC421217DB7E0500201DDC /* libz.dylib */; };
+		A7A00090184575F100DA4DA2 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CC41E317DB7D2F00201DDC /* SSZipArchive.m */; };
+		A7A00091184575F100DA4DA2 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 210D524C17DEFB880060D41A /* ioapi.c */; };
+		A7A00092184575F100DA4DA2 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 210D524E17DEFB880060D41A /* mztools.c */; };
+		A7A00093184575F100DA4DA2 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 210D525017DEFB880060D41A /* unzip.c */; };
+		A7A00094184575F100DA4DA2 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 210D525217DEFB880060D41A /* zip.c */; };
+		A7A000951845763600DA4DA2 /* RelativeSymbolicLink.zip in Resources */ = {isa = PBXBuildFile; fileRef = 011F4B95182D71B700DE704F /* RelativeSymbolicLink.zip */; };
+		A7A000961845763600DA4DA2 /* IncorrectHeaders.zip in Resources */ = {isa = PBXBuildFile; fileRef = 21CC41F017DB7D3500201DDC /* IncorrectHeaders.zip */; };
+		A7A000971845763600DA4DA2 /* SymbolicLink.zip in Resources */ = {isa = PBXBuildFile; fileRef = 21CC41F217DB7D3500201DDC /* SymbolicLink.zip */; };
+		A7A000981845763600DA4DA2 /* TestArchive.zip in Resources */ = {isa = PBXBuildFile; fileRef = 21CC41F317DB7D3500201DDC /* TestArchive.zip */; };
+		A7A000991845763600DA4DA2 /* TestPasswordArchive.zip in Resources */ = {isa = PBXBuildFile; fileRef = 21CC41F417DB7D3500201DDC /* TestPasswordArchive.zip */; };
+		A7A0009A1845763600DA4DA2 /* Unicode.zip in Resources */ = {isa = PBXBuildFile; fileRef = 21CC41F517DB7D3500201DDC /* Unicode.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A0008F1845746900DA4DA2 /* libz.dylib in Frameworks */,
 				A7A000751845716F00DA4DA2 /* XCTest.framework in Frameworks */,
 				A7A0007A1845716F00DA4DA2 /* libSSZipArchive.a in Frameworks */,
 				A7A000761845716F00DA4DA2 /* Foundation.framework in Frameworks */,
@@ -253,6 +266,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A000991845763600DA4DA2 /* TestPasswordArchive.zip in Resources */,
+				A7A000971845763600DA4DA2 /* SymbolicLink.zip in Resources */,
+				A7A000961845763600DA4DA2 /* IncorrectHeaders.zip in Resources */,
+				A7A0009A1845763600DA4DA2 /* Unicode.zip in Resources */,
+				A7A000981845763600DA4DA2 /* TestArchive.zip in Resources */,
+				A7A000951845763600DA4DA2 /* RelativeSymbolicLink.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A00090184575F100DA4DA2 /* SSZipArchive.m in Sources */,
+				A7A00091184575F100DA4DA2 /* ioapi.c in Sources */,
+				A7A00092184575F100DA4DA2 /* mztools.c in Sources */,
+				A7A00093184575F100DA4DA2 /* unzip.c in Sources */,
+				A7A00094184575F100DA4DA2 /* zip.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
