@@ -1513,6 +1513,7 @@ extern int ZEXPORT unzOpenCurrentFile3 (unzFile file, int* method,
     pfile_in_zip_read_info->offset_local_extrafield = offset_local_extrafield;
     pfile_in_zip_read_info->size_local_extrafield = size_local_extrafield;
     pfile_in_zip_read_info->pos_local_extrafield=0;
+    pfile_in_zip_read_info->byte_before_the_zipfile=0;
     pfile_in_zip_read_info->raw=raw;
 
     if (pfile_in_zip_read_info->read_buffer==NULL)
