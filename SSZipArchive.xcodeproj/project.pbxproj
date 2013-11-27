@@ -403,7 +403,7 @@
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "SSZipArchiveTests/SSZipArchiveTests-Info.plist";
+				INFOPLIST_FILE = "Tests/SSZipArchiveTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -421,7 +421,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSZipArchive/SSZipArchive-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "SSZipArchiveTests/SSZipArchiveTests-Info.plist";
+				INFOPLIST_FILE = "Tests/SSZipArchiveTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
